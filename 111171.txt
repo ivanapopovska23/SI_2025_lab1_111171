@@ -87,3 +87,26 @@ git add *.txt
 git commit -m "Final commit"
 git pull origin master
 git push origin master
+
+Otkako zavrsiv so tretiot del, se vrakam tuka za da gi dopisam cekorite.
+
+27. 
+napraviv fork na soodvetnoto repo kaj stefanandonov
+
+28. 
+go klonirav kaj mene so git clone  https://github.com/ivanapopovska23/SI_2025_lab1_151020.git
+napraviv git remote add upstream  https://github.com/ivanapopovska23/SI_2025_lab1_151020.git
+
+29.
+kreirav datoteka 111171.txt so sodrzina ime
+git add *.txt
+git commit -m "Add file"
+
+30.
+Git pull upstream master
+Git push origin master
+
+31.
+kreirav PR
+
+32. imeto na PR e soodvetno brojot na indeksot 111171
