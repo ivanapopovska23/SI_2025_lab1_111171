@@ -1,0 +1,16 @@
+$ git log --oneline --graph --all
+*   ea6a1f4 (HEAD -> master, origin/master, origin/HEAD) Merge branch '3-list-tasks-sorted-by-name'
+|\
+| * 1b84616 (origin/3-list-tasks-sorted-by-name, 3-list-tasks-sorted-by-name) Implement sortTasksByName
+* |   d1d3c3c Merge pull request #11 from ivanapopovska23/2-find-all-completed-tasks
+|\ \
+| * | 4d80070 (origin/2-find-all-completed-tasks, 2-find-all-completed-tasks) Implement getCompletedTasks
+| |/
+* |   edc9839 Merge pull request #10 from ivanapopovska23/1-remove-a-task-by-name
+|\ \
+| |/
+|/|
+| * 112ccb0 (origin/1-remove-a-task-by-name, 1-remove-a-task-by-name) Implement removeTask by name
+|/
+* 204aba1 Add starter code
+* 143dbf1 Initial commit

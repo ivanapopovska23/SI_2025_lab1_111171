@@ -1,0 +1,89 @@
+4.
+mkdir SI_2025_lab1_111171
+cd SI_2025_lab1_111171
+git init
+
+5.
+git remote add origin https://github.com/ivanapopovska23/SI_2025_lab1_111171.git
+git remote -v (izlistaj deka se e ok - so pull i push
+
+6.
+echo "Ивана Матиева 111171" > README.md (dodadi file vo koj ke se sodrzi toa sto e navedeno"
+git add *.md (dodadi gi site files vo tekovniot folder koi se so ekstenzija .md - vo ovoj slucaj README.md)
+git status
+git commit -m "Initial commit"
+git status
+
+7.
+git add *.java
+git commit -m "Add starter code"
+
+8.
+git pull origin master (treba prvo da se push-ne na master)
+git push origin master
+
+9. 
+kreirav proekt
+
+10.
+gi dodadiv user stories, odnosno issues
+
+11.
+gi izbrav prvite 3 features i gi premestiv vo in progress
+
+12.
+generirav ime na granka na site
+
+13.
+git fetch origin (zemi se sto mi e na remote, da go imam vo local)
+
+14.
+git checkout 1-remove-a-task-by-name (prefrli se na grankata)
+
+15.
+ja implementirav metodata
+
+16.
+git status
+git add *.java
+git status
+git commit -m "Implement bla bla bla"
+git status
+
+17.
+git pull origin 1-remove-a-task-by-name
+git push origin 1-remove-a-task-by-name
+
+18. 
+kreirav PR
+   
+19. 
+istite cekori gi napraviv i za 2-find-all-completed-tasks i za 3-list-tasks-sorted-by-name
+
+20.
+PR za 1-remove-a-task-by-name i 2-find-all-completed-tasks gi odobriv (kliknav na merge) direct na GitHub
+
+21.
+tie dve issues avtomatski se prefrlija vo kolonata Done
+
+22.
+git pull origin master (se zema remote master bidejki ima novi promeni po dvata PRs koi bea merged)
+git checkout master
+git merge 3-list-tasks-sorted-by-name (ja spoiv ovaa granka kon master)
+
+23.
+git push origin master
+
+24.
+so ova i tretiot PR soodvetno se zatvora
+
+25.
+git log --oneline --graph --all
+nano logs.txt - tuka kopiram toa sto mi go vrati prethodnata komanda, ctrl+X, Y, enter
+
+26.
+momentalno go popolnuvam 111171.txt so site komandi koisto sum gi iskoristila do sega, ke napravam:
+git add *.txt
+git commit -m "Final commit"
+git pull origin master
+git push origin master
