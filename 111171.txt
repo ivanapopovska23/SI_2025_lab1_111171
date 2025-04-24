@@ -95,7 +95,7 @@ napraviv fork na soodvetnoto repo kaj stefanandonov
 
 28. 
 go klonirav kaj mene so git clone  https://github.com/ivanapopovska23/SI_2025_lab1_151020.git
-napraviv git remote add upstream  https://github.com/ivanapopovska23/SI_2025_lab1_151020.git
+napraviv git remote add upstream  https://github.com/ivanapopovska23/SI_2025_lab1_151020.git // ova dopolnitelno go pisuvam (posle rokot) slucajno primetiv deka tuka vo opisot dvapati po greska mi e kopiran linkot od moeto, namesto od stefanandonov
 
 29.
 kreirav datoteka 111171.txt so sodrzina ime
